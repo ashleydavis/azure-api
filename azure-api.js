@@ -235,8 +235,8 @@ var Azure = function (config) {
 		var args = [
 			'vm',
 			'show',
-			vmName,
 			'--json',
+			vmName,
 		];
 
 		return self.runAzureCmd(args)
